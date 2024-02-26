@@ -130,19 +130,19 @@ function updateHumidityStatus(humidity){
 }
 function getIcon(condition){
     if(condition === "partly-cloudy-day"){
-       return "./img/partlyCloudy.png";
+       return "./Reimg/partlyCloudy.png";
     }else if(condition === "partly-cloudy-night"){
-        return "./img/partlyCloudyNight.png";
+        return "./Reimg/partlyCloudyNight.png";
     }else if(condition === "clear-day"){
-        return "./img/clearDay.png";
+        return "./Reimg/clearDay.png";
     }else if(condition === "clear-night"){
-        return "./img/clearNight.png";
+        return "./Reimg/clearNight.png";
     }else if(condition === "Overcast"){
-        return "./img/overcast.png";
+        return "./Reimg/overcast.png";
     }else if(condition === "rain"){
-        return "./img/rain.png";
+        return "./Reimg/rain.png";
     }else{
-        return "./img/normalWeather.png";
+        return "./Reimg/normalWeather.png";
     }
 }
 
